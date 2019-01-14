@@ -20,7 +20,7 @@ namespace Code_Clock
         /// </summary>
         TimeSpan elapsed;
         Timer clock = new Timer();
-        bool running;
+        bool running = false;
 
         public v_main()
         {
